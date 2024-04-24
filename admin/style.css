@@ -1,0 +1,367 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.login-form {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-form p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.registration-form {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 2%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.registration-form p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.forgot-password-form {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 2%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forgot-password-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.forgot-password-form p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #333333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group .input-icon {
+    position: relative;
+}
+
+.form-group .input-icon input {
+    padding-left: 40px;
+}
+
+.form-group .input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+}
+
+.form-actions {
+    text-align: right;
+}
+
+.form-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.form-actions button:hover {
+    background-color: #0056b3;
+}
+
+.new-account {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.new-account a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.new-account a:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.text-center span {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20%;
+}
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+.back-to-login a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.heading,
+.header {
+    background-color: #13005A;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+}
+.header-content {
+    font-size: 12px;
+     /* Adjust the font size as desired */
+}
+.subheading {
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+
+.northope {
+    display: flex;
+    align-items: center;
+}
+
+.northope-text {
+    margin-right: 5px;
+}
+
+.microscope-icon {
+font-size: 20px;
+}
+
+.header h1, 
+.header-content h1 {
+    font-size: 23px;
+    margin: 0 20px;
+}
+.sidebar {
+    background-color: #13005A;
+    width: 200px;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.sidebar li {
+    margin-bottom: 10%;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 10%;
+    padding-top: 5%;
+}
+ 
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.sidebar a.active {
+  color: #3f7dd5;
+}
+
+.sidebar li a:hover {
+    color: #000;
+}
+
+.toggle-sidebar-btn {
+    border: none;
+    color: #333;
+    padding: 10px;
+}
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    position: relative;
+  }
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-bottom: 3%;
+    border-bottom: 3px solid #4c4747;
+    padding-bottom: 5px;
+}
+
+.dashboard-section {
+    display: inline-block;
+    justify-content: flex-end;
+}
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(14, 187, 123);
+    color: #fff;
+    padding: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width:150px;
+    font-weight: bold;
+    font-style:italic; color:#000;
+  }
+
+.box a {
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 100%;
+    }
+}
+
+.footer {
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: auto;
+}
+
+/* Table Styles start here */
+fieldset {
+    border-collapse: collapse;
+    border: 3px solid black;
+    font-weight: bold;
+    text-align: center;
+  }
+  /*
+  tbody {
+    background-color: #13005a;
+    color: #fff;
+    font-weight: bold;
+  }*/
+
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    input[type="float"],
+    input[type="text"] {
+      width: 100%;
+    }
+
+    table {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    input[type="float"],
+    input[type="text"] {
+      width: 100%;
+    }
+
+    table {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  th:first-child,
+  td:first-child {
+    border-left: none;
+  }
+
+  th:last-child,
+  td:last-child {
+    border-right: none;
+  }
+  input[type="submit"] {
+    background-color: #13005a;
+    color: #fff;
+  }
